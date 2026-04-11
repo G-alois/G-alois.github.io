@@ -306,6 +306,17 @@ h3 {
   font-weight: 700;
 }
 
+.publication-highlight-link {
+  color: inherit !important;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.publication-highlight-link:hover,
+.publication-highlight-link:focus {
+  color: inherit !important;
+}
+
 .btn--inverse {
   color: var(--site-text-light) !important;
   background-color: var(--site-surface);
@@ -339,6 +350,7 @@ h3 {
 .page-reviewers__map {
   width: 50%;
   min-width: 180px;
+  margin: 0 auto;
   overflow: hidden;
 }
 

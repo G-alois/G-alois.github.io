@@ -17,7 +17,7 @@ author_profile: true
   <div class="record-item">
     <p class="record-title"><a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a></p>
     <p class="record-meta">PhD Student in Microelectronics, Aug. 2022 - Present</p>
-    <p class="record-submeta">Microelectronics Thrust</p>
+    <p class="record-submeta"><a href="https://funh.hkust-gz.edu.cn/academics/microelectronics/faculty-members/">Microelectronics Thrust</a></p>
     <p class="record-submeta">Advisor: <a href="https://hjy.people.ust.hk/">Prof. Jiayi Huang</a>; Co-advisor: <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a></p>
     <p class="record-submeta">Research: Collective Communication Optimization for Distributed Machine Learning; Efficient Scheduling for LLM Training and Inference</p>
   </div>
@@ -57,7 +57,7 @@ author_profile: true
     <p class="publication-title"><strong>[ICML '25]</strong> <a href="https://proceedings.mlr.press/v267/cai25c.html">Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts</a></p>
     <p class="publication-authors">Weilin Cai, Juyong Jiang, <strong>Le Qin</strong>, Junwei Cui, Sunghun Kim, Jiayi Huang</p>
     <p class="publication-meta">International Conference on Machine Learning (ICML), 2025</p>
-    <p class="publication-highlight">Highlight: Adopted by Meituan’s LongCat-Flash 560B MoE model</p>
+    <p class="publication-highlight">Highlight: Adopted by <a class="publication-highlight-link" href="https://arxiv.org/abs/2509.01322">Meituan’s LongCat-Flash 560B MoE model</a></p>
   </div>
 
   <div class="publication-item publication-item--highlight">
