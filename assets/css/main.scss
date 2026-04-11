@@ -137,6 +137,10 @@ h3 {
   gap: 0.45rem;
 }
 
+.masthead__menu-item--lg {
+  padding-left: 3.35rem;
+}
+
 .greedy-nav {
   background-color: var(--site-bg);
 }
@@ -199,39 +203,35 @@ h3 {
   background: transparent;
 }
 
-.greedy-nav .theme-toggle-button {
+.theme-toggle-floating {
+  position: fixed;
+  top: calc(env(safe-area-inset-top, 0px) + 0.7rem);
+  left: calc(env(safe-area-inset-left, 0px) + 0.9rem);
+  z-index: 30;
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  position: static;
-  height: auto;
-  right: auto;
-  z-index: auto;
-  margin: 0 1rem;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
   padding: 0;
-  border: 0;
-  background: transparent;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  background: var(--site-surface);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   color: var(--site-link);
-  font: inherit;
   cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
-.greedy-nav .visible-links li:last-child .theme-toggle-button {
-  margin-right: 0;
-}
-
-.theme-toggle-button:hover,
-.theme-toggle-button:focus {
+.theme-toggle-floating:hover,
+.theme-toggle-floating:focus {
   color: var(--site-link-hover);
+  transform: translateY(-1px);
 }
 
-.theme-toggle-button:focus-visible {
+.theme-toggle-floating:focus-visible {
   outline: 2px solid var(--site-link);
   outline-offset: 3px;
-}
-
-.masthead__menu-item--theme {
-  margin-left: 0.2rem;
 }
 
 .nav-icon {
@@ -347,4 +347,17 @@ h3 {
   margin: 0;
   color: var(--site-text-light);
   font-size: 0.92rem;
+}
+
+@media (max-width: 37.5em) {
+  .masthead__menu-item--lg {
+    padding-left: 2.9rem;
+  }
+
+  .theme-toggle-floating {
+    top: calc(env(safe-area-inset-top, 0px) + 0.78rem);
+    left: calc(env(safe-area-inset-left, 0px) + 0.7rem);
+    width: 2.2rem;
+    height: 2.2rem;
+  }
 }
