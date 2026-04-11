@@ -4,6 +4,7 @@ _site/
 .sass-cache/
 .bundle/
 vendor/bundle/
+assets/files/*.pdf
 
 # Ignore the directory for local files during development
 local/
