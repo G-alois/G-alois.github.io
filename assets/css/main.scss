@@ -1,0 +1,350 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+:root {
+  --site-bg: #ffffff;
+  --site-surface: #ffffff;
+  --site-footer-bg: #f2f3f3;
+  --site-text: #494e52;
+  --site-text-light: #5f6c75;
+  --site-heading: #2f7f93;
+  --site-link: #52adc8;
+  --site-link-hover: #23606e;
+  --site-border: #d9e6ea;
+  --site-highlight: #b22222;
+  --site-highlight-bg: #eef8fb;
+}
+
+html[data-theme="dark"] {
+  --site-bg: #474747;
+  --site-surface: #474747;
+  --site-footer-bg: #474747;
+  --site-text: #ffffff;
+  --site-text-light: #e4e9ec;
+  --site-heading: #86d0e0;
+  --site-link: #0ea1c5;
+  --site-link-hover: #0b7994;
+  --site-border: #858d92;
+  --site-highlight: #ff9797;
+  --site-highlight-bg: #3e5d66;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--site-bg);
+}
+
+body,
+.masthead,
+.sidebar,
+.author__urls-wrapper,
+.page {
+  background-color: var(--site-surface);
+  color: var(--site-text);
+}
+
+body,
+.page__content,
+.archive__item,
+.author__bio,
+.author__urls,
+.page__footer {
+  color: var(--site-text);
+}
+
+a,
+.page__content a,
+.author__urls a,
+.page__footer a,
+.greedy-nav a,
+.author__urls .ai,
+.author__urls .fab,
+.author__urls .fas {
+  color: var(--site-link);
+}
+
+a:hover,
+.page__content a:hover,
+.author__urls a:hover,
+.page__footer a:hover,
+.greedy-nav a:hover {
+  color: var(--site-link-hover);
+}
+
+.masthead::after,
+.page__footer,
+.page__footer footer,
+.anchor-section h2,
+.record-item,
+.publication-item,
+.author__urls-wrapper button,
+.author__urls li,
+.sidebar {
+  border-color: var(--site-border);
+}
+
+.page__title,
+.author__name,
+.anchor-section h2,
+h1,
+h2,
+h3 {
+  color: var(--site-heading);
+}
+
+.masthead__menu-item a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.greedy-nav {
+  background-color: var(--site-bg);
+}
+
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+  color: var(--site-link);
+}
+
+.greedy-nav .hidden-links {
+  border-color: var(--site-border);
+  background-color: var(--site-bg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+}
+
+.greedy-nav .hidden-links li {
+  border-color: var(--site-border);
+}
+
+.greedy-nav .hidden-links a:hover {
+  color: var(--site-link-hover);
+  background-color: var(--site-highlight-bg);
+}
+
+.greedy-nav .hidden-links::before {
+  border-color: var(--site-border) transparent;
+}
+
+.greedy-nav .hidden-links::after {
+  border-color: var(--site-bg) transparent;
+}
+
+.greedy-nav > button {
+  background-color: var(--site-bg);
+  color: var(--site-link);
+  border-left: 1px solid var(--site-border);
+}
+
+.greedy-nav > button:hover,
+.greedy-nav > button:focus {
+  color: var(--site-link-hover);
+}
+
+.greedy-nav > button .navicon,
+.greedy-nav > button .navicon::before,
+.greedy-nav > button .navicon::after {
+  background: var(--site-link);
+}
+
+.greedy-nav > button:hover .navicon,
+.greedy-nav > button:hover .navicon::before,
+.greedy-nav > button:hover .navicon::after,
+.greedy-nav > button:focus .navicon,
+.greedy-nav > button:focus .navicon::before,
+.greedy-nav > button:focus .navicon::after {
+  background: var(--site-link-hover);
+}
+
+.greedy-nav > button.close .navicon {
+  background: transparent;
+}
+
+.greedy-nav .theme-toggle-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  position: static;
+  height: auto;
+  right: auto;
+  z-index: auto;
+  margin: 0 1rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--site-link);
+  font: inherit;
+  cursor: pointer;
+}
+
+.greedy-nav .visible-links li:last-child .theme-toggle-button {
+  margin-right: 0;
+}
+
+.theme-toggle-button:hover,
+.theme-toggle-button:focus {
+  color: var(--site-link-hover);
+}
+
+.theme-toggle-button:focus-visible {
+  outline: 2px solid var(--site-link);
+  outline-offset: 3px;
+}
+
+.masthead__menu-item--theme {
+  margin-left: 0.2rem;
+}
+
+.nav-icon {
+  font-size: 0.95rem;
+}
+
+.anchor-section {
+  scroll-margin-top: 5.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.anchor-section h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--site-border);
+}
+
+.record-item,
+.publication-item {
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--site-border);
+}
+
+.record-item:last-child,
+.publication-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.record-title,
+.publication-title {
+  margin: 0 0 0.15rem;
+  font-weight: 700;
+}
+
+.publication-title a {
+  color: var(--site-link);
+}
+
+.publication-title a:hover,
+.publication-title a:focus {
+  color: var(--site-link-hover);
+}
+
+.record-meta,
+.publication-meta,
+.record-submeta {
+  margin: 0.1rem 0;
+  color: var(--site-text-light);
+  font-size: 0.96rem;
+}
+
+.publication-authors {
+  margin: 0.15rem 0;
+}
+
+.publication-item--highlight {
+  padding: 0.95rem 1rem 1rem;
+  border-radius: 10px;
+  background: var(--site-highlight-bg);
+}
+
+.publication-highlight,
+.publication-badge {
+  margin: 0.22rem 0 0;
+  font-size: 0.94rem;
+}
+
+.publication-highlight {
+  color: var(--site-highlight);
+  font-weight: 700;
+}
+
+.btn--inverse {
+  color: var(--site-text-light) !important;
+  background-color: var(--site-surface);
+}
+
+.masthead,
+.greedy-nav,
+.page__footer {
+  background-color: var(--site-bg);
+}
+
+.page__content ul.compact-list {
+  margin-top: 0.4rem;
+}
+
+.page__content ul.compact-list li {
+  margin-bottom: 0.35rem;
+}
+
+.footer-extra {
+  margin-bottom: 0.8rem;
+}
+
+.page-reviewers {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--site-border);
+  border-radius: 10px;
+  background-color: var(--site-surface);
+}
+
+.site-updated,
+.page-reviewers__title {
+  margin: 0.25rem 0 0.5rem;
+  color: var(--site-text-light);
+  font-size: 0.9rem;
+}
+
+.page-reviewers__notice {
+  margin: 0;
+  color: var(--site-text-light);
+  font-size: 0.92rem;
+}

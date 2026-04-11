@@ -1,0 +1,86 @@
+locale: "en-US"
+title: "Le Qin"
+title_separator: "-"
+name: &name "Le Qin"
+description: &description "Ph.D. student at HKUST(GZ) working on collective communication, interconnection networks, and distributed machine learning systems."
+url: "https://g-alois.github.io"
+baseurl: "/leqin.github.io"
+repository: "G-alois/leqin.github.io"
+
+author:
+  avatar: "le-qin.jpg"
+  name: "Le Qin"
+  bio: "Ph.D. Student in Microelectronics, HKUST(GZ)"
+  location: "Guangzhou, China"
+  employer: "HKUST(GZ)"
+  email: "lqin674@connect.hkust-gz.edu.cn"
+  googlescholar: "https://scholar.google.com/scholar?q=%22Le+Qin%22+%22HKUST%28GZ%29%22"
+  orcid: "https://orcid.org/0009-0001-9861-0469"
+  github: "G-alois"
+  linkedin: "le-qin-19820324b"
+
+clustrmaps_id: ""
+
+breadcrumbs: false
+words_per_minute: 180
+future: true
+read_more: "disabled"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+include:
+  - _pages
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - README.md
+  - node_modules
+  - opt.txt
+  - opt2.txt
+  - package.json
+  - vendor
+  - tmp
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+excerpt_separator: "\n\n"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+atom_feed:
+  hide: true
+
+sass:
+  style: compressed

@@ -1,0 +1,24 @@
+main:
+  - title: "About"
+    url: /#about
+    icon: "fa-solid fa-user"
+
+  - title: "Education"
+    url: /#education
+    icon: "fa-solid fa-graduation-cap"
+
+  - title: "Publications"
+    url: /#publications
+    icon: "fa-solid fa-book-open"
+
+  - title: "Experience"
+    url: /#experience
+    icon: "fa-solid fa-briefcase"
+
+  - title: "Service"
+    url: /#service
+    icon: "fa-solid fa-handshake"
+
+  - title: "Awards"
+    url: /#awards
+    icon: "fa-solid fa-award"

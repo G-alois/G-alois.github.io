@@ -1,0 +1,76 @@
+<!-- start custom footer snippets -->
+<div class="footer-extra">
+  <p class="site-updated">Site last updated {{ site.time | date: "%Y-%m-%d" }}</p>
+  <div class="page-reviewers">
+    <p class="page-reviewers__title">Page reviewers</p>
+    {% if site.clustrmaps_id and site.clustrmaps_id != "" %}
+    <script
+      type="text/javascript"
+      id="clustrmaps"
+      src="//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d={{ site.clustrmaps_id }}&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080">
+    </script>
+    {% else %}
+    <p class="page-reviewers__notice">
+      ClustrMaps is not connected yet. Set <code>clustrmaps_id</code> to the value after <code>d=</code> in your own ClustrMaps embed script.
+    </p>
+    {% endif %}
+  </div>
+</div>
+<script>
+  (function () {
+    const root = document.documentElement;
+    const button = document.getElementById("theme-toggle");
+    const icon = document.getElementById("theme-icon");
+    const label = document.getElementById("theme-label");
+    const storageKey = "theme";
+
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        root.setAttribute("data-theme", "dark");
+        if (button) {
+          button.setAttribute("aria-pressed", "true");
+          button.setAttribute("aria-label", "Switch to light mode");
+        }
+        if (icon) {
+          icon.classList.remove("fa-sun");
+          icon.classList.add("fa-moon");
+        }
+        if (label) {
+          label.textContent = "Dark";
+        }
+      } else {
+        root.removeAttribute("data-theme");
+        if (button) {
+          button.setAttribute("aria-pressed", "false");
+          button.setAttribute("aria-label", "Switch to dark mode");
+        }
+        if (icon) {
+          icon.classList.remove("fa-moon");
+          icon.classList.add("fa-sun");
+        }
+        if (label) {
+          label.textContent = "Light";
+        }
+      }
+    }
+
+    function getTheme() {
+      const stored = localStorage.getItem(storageKey);
+      if (stored === "dark" || stored === "light") {
+        return stored;
+      }
+      return "light";
+    }
+
+    applyTheme(getTheme());
+
+    if (button) {
+      button.addEventListener("click", function () {
+        const nextTheme = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        localStorage.setItem(storageKey, nextTheme);
+        applyTheme(nextTheme);
+      });
+    }
+  })();
+</script>
+<!-- end custom footer snippets -->
