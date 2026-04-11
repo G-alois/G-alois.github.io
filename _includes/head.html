@@ -13,6 +13,16 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function () {
+    var storageKey = "theme";
+    var stored = localStorage.getItem(storageKey);
+    var theme = stored === "light" || stored === "dark" ? stored : "dark";
+    if (theme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+    }
+  })();
 </script>
 
 <!-- For all browsers -->

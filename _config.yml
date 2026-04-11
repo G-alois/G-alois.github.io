@@ -4,8 +4,8 @@ title_separator: "-"
 name: &name "Le Qin"
 description: &description "Ph.D. student at HKUST(GZ) working on collective communication, interconnection networks, and distributed machine learning systems."
 url: "https://g-alois.github.io"
-baseurl: "/leqin.github.io"
-repository: "G-alois/leqin.github.io"
+baseurl: ""
+repository: "G-alois/G-alois.github.io"
 
 author:
   avatar: "le-qin.jpg"

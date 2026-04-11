@@ -35,6 +35,12 @@ author_profile: true
   <h2>Publications</h2>
 
   <div class="publication-item">
+    <p class="publication-title"><strong>[ISCA '26]</strong> Mapping and Communication Optimizations with Fault Tolerance for Wafer-Scale LLM Inference</p>
+    <p class="publication-authors">Junwei Cui, <strong>Le Qin</strong>, Weilin Cai, Jiayi Huang</p>
+    <p class="publication-meta">Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA), 2026</p>
+  </div>
+
+  <div class="publication-item">
     <p class="publication-title"><strong>[DATE '26]</strong> XTree on EquiMesh: Topology and Algorithm Co-Design for Collective Communication</p>
     <p class="publication-authors">Junwei Cui, <strong>Le Qin</strong>, Weilin Cai, Jiayi Huang</p>
     <p class="publication-meta">Design, Automation and Test in Europe Conference (DATE), 2026</p>

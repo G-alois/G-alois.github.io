@@ -24,7 +24,7 @@ bundle exec jekyll serve
 默认访问地址：
 
 ```text
-http://127.0.0.1:4000/leqin.github.io/
+http://127.0.0.1:4000/
 ```
 
 不要在 `_site/` 目录里执行 `bundle exec jekyll serve`。Jekyll 会先清空再重建 `_site/`，如果当前 shell 正好停在那个目录里，就会出现 `getcwd` / `Errno::ENOENT` 这类报错。
@@ -53,19 +53,13 @@ bundle exec jekyll serve
 
 ## GitHub Pages 部署
 
-当前仓库已经按项目主页仓库 `leqin.github.io` 配置，线上地址会是：
-
-```text
-https://g-alois.github.io/leqin.github.io/
-```
-
-如果你以后想把主页直接挂到根路径：
+当前仓库已经按用户主页仓库 `G-alois.github.io` 配置，线上地址会是：
 
 ```text
 https://g-alois.github.io/
 ```
 
-那就需要把仓库名改成 `G-alois.github.io`，或者绑定你自己的自定义域名。
+如果你以后改回项目主页仓库，再把 `_config.yml` 里的 `baseurl` 改回对应仓库名即可。
 
 ## 内容来源
 
