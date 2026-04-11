@@ -87,8 +87,8 @@ author_profile: true
   <div class="record-item">
     <p class="record-title">Huang Lab, <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a></p>
     <p class="record-meta">Graduate Research Assistant, Aug. 2022 - Present</p>
-    <p class="record-submeta">Advisor: <a href="https://hjy.people.ust.hk/">Prof. Jiayi Huang</a>; Co-advisor: <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a></p>
-    <p class="record-submeta">Focus: Collective communication optimization for distributed deep learning and software-hardware co-design for efficient DNN training and inference</p>
+    <p class="record-submeta">Advisor: <a href="https://hjy.people.ust.hk/">Prof. Jiayi Huang</a></p>
+    <p class="record-submeta">Focus: Collective communication optimization for distributed deep learning and software-hardware co-design for efficient LLM training and inference</p>
   </div>
 
   <div class="record-item">
@@ -102,9 +102,9 @@ author_profile: true
 <section id="service" class="anchor-section">
   <h2>Service</h2>
   <ul class="compact-list">
-    <li>International Symposium on Computer Architecture (ISCA) Artifact Evaluation, 2025</li>
-    <li>International Symposium on Microarchitecture (MICRO) Artifact Evaluation, 2025</li>
-    <li>International Symposium on High-Performance Computer Architecture (HPCA) Artifact Evaluation, 2026</li>
+    <li>International Symposium on Computer Architecture (ISCA) Artifact Evaluation Program Committee, 2025</li>
+    <li>International Symposium on Microarchitecture (MICRO) Artifact Evaluation Program Committee, 2025</li>
+    <li>International Symposium on High-Performance Computer Architecture (HPCA) Artifact Evaluation Program Committee, 2026</li>
     <li>International Conference on Computer Design (ICCD) Sub-Reviewer, 2023-2025</li>
     <li>IEEE International Symposium on Hardware Oriented Security and Trust (HOST) Sub-Reviewer, 2026</li>
   </ul>

@@ -336,6 +336,20 @@ h3 {
   background-color: var(--site-surface);
 }
 
+.page-reviewers__map {
+  width: 50%;
+  min-width: 180px;
+  overflow: hidden;
+}
+
+.page-reviewers__map iframe,
+.page-reviewers__map canvas,
+.page-reviewers__map img,
+.page-reviewers__map svg,
+.page-reviewers__map > div {
+  max-width: 100%;
+}
+
 .site-updated,
 .page-reviewers__title {
   margin: 0.25rem 0 0.5rem;
@@ -359,5 +373,10 @@ h3 {
     left: calc(env(safe-area-inset-left, 0px) + 0.7rem);
     width: 2.2rem;
     height: 2.2rem;
+  }
+
+  .page-reviewers__map {
+    width: 100%;
+    min-width: 0;
   }
 }
