@@ -120,6 +120,7 @@ author_profile: true
 <section id="awards" class="anchor-section">
   <h2>Awards</h2>
   <ul class="compact-list">
+    <li>ISCA 2026 Student Travel Grant Award, ISCA’26, Raleigh, NC, USA</li>
     <li>MICRO 2025 Student Travel Grant Award, MICRO’25, Seoul, Korea</li>
     <li>ISCA 2025 Distinguished Artifact Award (3/570), ISCA’25, Tokyo, Japan</li>
     <li>ISCA 2025 Student Travel Grant Award, ISCA’25, Tokyo, Japan</li>
