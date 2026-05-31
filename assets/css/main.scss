@@ -82,10 +82,6 @@ body,
   color: var(--site-text);
 }
 
-body {
-  padding-bottom: 0;
-}
-
 body,
 .page__content,
 .archive__item,
@@ -332,11 +328,6 @@ h3 {
   background-color: var(--site-bg);
 }
 
-.page__footer {
-  position: static;
-  bottom: auto;
-}
-
 .page__content ul.compact-list {
   margin-top: 0.4rem;
 }
@@ -350,19 +341,15 @@ h3 {
 }
 
 .page-reviewers {
-  max-width: 24rem;
-  margin: 0 auto;
   padding: 0.9rem 1rem;
   border: 1px solid var(--site-border);
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: var(--site-surface);
-  text-align: center;
 }
 
 .page-reviewers__map {
-  width: 100%;
-  max-width: 300px;
-  min-height: 160px;
+  width: 50%;
+  min-width: 180px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -372,26 +359,7 @@ h3 {
 .page-reviewers__map img,
 .page-reviewers__map svg,
 .page-reviewers__map > div {
-  display: block;
   max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.page-reviewers__fallback {
-  display: flex !important;
-  min-height: 160px;
-  align-items: center;
-  justify-content: center;
-  padding: 0.8rem;
-  border: 1px dashed var(--site-border);
-  border-radius: 8px;
-  color: var(--site-text-light);
-  font-size: 0.9rem;
-}
-
-.page-reviewers__map.is-loaded .page-reviewers__fallback {
-  display: none !important;
 }
 
 .site-updated,
@@ -421,5 +389,6 @@ h3 {
 
   .page-reviewers__map {
     width: 100%;
+    min-width: 0;
   }
 }

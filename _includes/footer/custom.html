@@ -1,16 +1,14 @@
 <!-- start custom footer snippets -->
-{% assign clustrmaps_id = site.clustrmaps_id | default: "" | strip %}
 <div class="footer-extra">
   <p class="site-updated">Site last updated {{ site.time | date: "%Y-%m-%d" }}</p>
   <div class="page-reviewers">
     <p class="page-reviewers__title">Page reviewers</p>
-    {% if clustrmaps_id != "" %}
-    <div class="page-reviewers__map" id="page-reviewers-map">
-      <div class="page-reviewers__fallback" role="status">Visitor map loading...</div>
+    {% if site.clustrmaps_id and site.clustrmaps_id != "" %}
+    <div class="page-reviewers__map">
       <script
         type="text/javascript"
         id="clustrmaps"
-        src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d={{ clustrmaps_id }}">
+        src="//clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&cl=ffffff&w=a">
       </script>
     </div>
     {% else %}
@@ -20,55 +18,6 @@
     {% endif %}
   </div>
 </div>
-<script>
-  (function () {
-    const map = document.getElementById("page-reviewers-map");
-    if (!map) {
-      return;
-    }
-
-    const fallback = map.querySelector(".page-reviewers__fallback");
-
-    function hasRenderedWidget() {
-      return Array.prototype.some.call(map.children, function (child) {
-        if (child === fallback || child.tagName === "SCRIPT") {
-          return false;
-        }
-
-        const rect = child.getBoundingClientRect();
-        return rect.width > 0 && rect.height > 0;
-      });
-    }
-
-    function markLoaded() {
-      if (hasRenderedWidget()) {
-        map.classList.add("is-loaded");
-      }
-    }
-
-    markLoaded();
-
-    if ("MutationObserver" in window) {
-      const observer = new MutationObserver(markLoaded);
-      observer.observe(map, { childList: true, subtree: true });
-
-      window.addEventListener("load", function () {
-        window.setTimeout(function () {
-          markLoaded();
-          if (map.classList.contains("is-loaded")) {
-            observer.disconnect();
-          }
-        }, 500);
-      });
-    }
-
-    window.setTimeout(function () {
-      if (!map.classList.contains("is-loaded") && fallback) {
-        fallback.textContent = "Visitor map is temporarily unavailable.";
-      }
-    }, 5000);
-  })();
-</script>
 <script>
   (function () {
     const root = document.documentElement;
