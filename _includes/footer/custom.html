@@ -1,22 +1,27 @@
 <!-- start custom footer snippets -->
 <div class="footer-extra">
   <p class="site-updated">Site last updated {{ site.time | date: "%Y-%m-%d" }}</p>
+  {% unless page.hide_page_reviewers %}
   <div class="page-reviewers">
     <p class="page-reviewers__title">Page reviewers</p>
-    {% if site.clustrmaps_id and site.clustrmaps_id != "" %}
-    <div class="page-reviewers__map">
-      <script
-        type="text/javascript"
-        id="clustrmaps"
-        src="//clustrmaps.com/map_v2.js?d={{ site.clustrmaps_id }}&cl=ffffff&w=a">
-      </script>
+    {% if site.feedpulse_site_id and site.feedpulse_site_id != "" %}
+    {% assign reviewers_host = site.url | remove: "https://" | remove: "http://" | split: "/" | first %}
+    <div
+      class="page-reviewers__map"
+      id="page-reviewers-map"
+      data-feedpulse-site-id="{{ site.feedpulse_site_id }}"
+      data-feedpulse-host="{{ reviewers_host }}"
+      data-dashboard-url="{{ '/visitor-map/' | relative_url }}">
+      <div class="page-reviewers__loading">Loading visitor map...</div>
     </div>
+    <script defer src="{{ '/assets/js/page-reviewers.js' | relative_url }}"></script>
     {% else %}
     <p class="page-reviewers__notice">
-      ClustrMaps is not connected yet. Set <code>clustrmaps_id</code> to the value after <code>d=</code> in your own ClustrMaps embed script.
+      Visitor statistics are not connected yet. Set <code>feedpulse_site_id</code> in <code>_config.yml</code>.
     </p>
     {% endif %}
   </div>
+  {% endunless %}
 </div>
 <script>
   (function () {
