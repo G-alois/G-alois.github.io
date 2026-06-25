@@ -8,7 +8,7 @@ author_profile: true
 <section id="about" class="anchor-section">
   <h2>About</h2>
   <p>I have been a PhD student at <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a> since 2022.08 under the supervision of <a href="https://hjy.people.ust.hk/">Prof. Jiayi Huang</a>. I am also co-advised by <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a>. My research interests primarily lie in the field of computer architecture and system, with a special focus on interconnection network and distributed machine learning systems. In addition, I am interested in hardware accelerators and machine learning algorithms.</p>
-  <p>Previously, I obtained my Bachelor’s Degree from the <a href="https://njunju.nju.edu.cn/EN/7f/4f/c7136a163663/page.htm">School of Electronic Science and Engineering</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, where I was advised by <a href="https://ese.nju.edu.cn/lj_23922/list.htm">Prof. Jun Lin</a>.</p>
+  <p>Previously, I obtained my Bachelor’s Degree from the <a href="https://ese.nju.edu.cn/ese_en/main.htm">School of Electronic Science and Engineering</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, where I was advised by <a href="https://ese.nju.edu.cn/lj_23922/list.htm">Prof. Jun Lin</a>.</p>
 </section>
 
 <section id="education" class="anchor-section">
@@ -25,7 +25,7 @@ author_profile: true
   <div class="record-item">
     <p class="record-title"><a href="https://www.nju.edu.cn/en/">Nanjing University</a></p>
     <p class="record-meta">Bachelor’s Degree in VLSI Design and System Integration, Sep. 2018 - Jun. 2022</p>
-    <p class="record-submeta"><a href="https://njunju.nju.edu.cn/EN/7f/4f/c7136a163663/page.htm">School of Electronic Science and Engineering</a></p>
+    <p class="record-submeta"><a href="https://ese.nju.edu.cn/ese_en/main.htm">School of Electronic Science and Engineering</a></p>
     <p class="record-submeta">Advisor: <a href="https://ese.nju.edu.cn/lj_23922/list.htm">Prof. Jun Lin</a></p>
     <p class="record-submeta">Focus: VLSI Design, Hardware Acceleration, and Intelligent Systems</p>
   </div>
