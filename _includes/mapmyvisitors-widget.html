@@ -1,0 +1,39 @@
+{% assign mapmyvisitors_host = site.url | remove: "https://" | remove: "http://" | split: "/" | first %}
+<div
+  class="{{ include.class | default: 'mapmyvisitors-widget-frame' }}"
+  data-mapmyvisitors-id="{{ site.mapmyvisitors_id }}"
+  data-mapmyvisitors-host="{{ mapmyvisitors_host }}"
+  data-mapmyvisitors-stats-url="{{ site.mapmyvisitors_stats_url }}">
+  <div class="page-reviewers__loading">Loading visitor map...</div>
+</div>
+<script>
+  (function () {
+    const script = document.currentScript;
+    const root = script && script.previousElementSibling;
+    if (!root) return;
+
+    const widgetId = root.getAttribute("data-mapmyvisitors-id");
+    const publicHost = root.getAttribute("data-mapmyvisitors-host");
+    const statsUrl = root.getAttribute("data-mapmyvisitors-stats-url");
+
+    if (!widgetId) {
+      root.innerHTML = '<div class="page-reviewers__loading">Visitor statistics are not connected.</div>';
+      return;
+    }
+
+    if (window.location.hostname !== publicHost) {
+      root.innerHTML = '<div class="mapmyvisitors-local-preview">' +
+        '<a class="mapmyvisitors-open" href="' + statsUrl + '" target="_blank" rel="noopener">Open MapMyVisitors analytics</a>' +
+        '<span>Live tracking loads only on the public site.</span>' +
+      '</div>';
+      return;
+    }
+
+    root.innerHTML = "";
+    const embed = document.createElement("script");
+    embed.type = "text/javascript";
+    embed.id = "mapmyvisitors";
+    embed.src = "https://mapmyvisitors.com/map.js?d=" + encodeURIComponent(widgetId) + "&cl=ffffff&w=a";
+    root.appendChild(embed);
+  })();
+</script>
