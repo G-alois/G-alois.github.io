@@ -35,6 +35,12 @@ author_profile: true
   <h2>Publications</h2>
 
   <div class="publication-item">
+    <p class="publication-title"><strong>[MICRO '26]</strong> Glaive: Cleaving Bandwidth and Latency Scheduling for Efficient Non-uniform All-to-All Collective Communication</p>
+    <p class="publication-authors"><strong>Le Qin</strong>, Junwei Cui, Weilin Cai, Chenyu Yuan, Jiayi Huang</p>
+    <p class="publication-meta">Proceedings of the 59th International Symposium on Microarchitecture (MICRO), 2026</p>
+  </div>
+
+  <div class="publication-item">
     <p class="publication-title"><strong>[ICML '26]</strong> Mining Tensor/Neuron-Level Sparsity to Maximize Mixture-of-Experts Potential in Post-Training and Inference</p>
     <p class="publication-authors">Weilin Cai, <strong>Le Qin</strong>, Shwai He, Junwei Cui, Ang Li, Jiayi Huang</p>
     <p class="publication-meta">International Conference on Machine Learning (ICML), 2026</p>
