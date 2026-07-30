@@ -19,7 +19,7 @@ author_profile: true
     <p class="record-meta">PhD Student in Microelectronics, Aug. 2022 - Present</p>
     <p class="record-submeta"><a href="https://funh.hkust-gz.edu.cn/academics/microelectronics/faculty-members/">Microelectronics Thrust</a></p>
     <p class="record-submeta">Advisor: <a href="https://jyhuang91.github.io">Prof. Jiayi Huang</a>; Co-advisor: <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a></p>
-    <p class="record-submeta">Research: Collective Communication Optimization for Distributed Machine Learning; Efficient Scheduling for LLM Training and Inference</p>
+    <p class="record-submeta">Research: Collective Communication Optimization for Distributed Machine Learning; Efficient Scheduling for LLM Training and Inference; and Topology, routing, protocol, flow control design for supernode systems</p>
   </div>
 
   <div class="record-item">
@@ -54,7 +54,7 @@ author_profile: true
   </div>
 
   <div class="publication-item">
-    <p class="publication-title"><strong>[DATE '26]</strong> <a href="https://past.date-conference.com/proceedings-archive/2026/DATA/140.pdf">XTree on EquiMesh: Topology and Algorithm Co-Design for Collective Communication</a></p>
+    <p class="publication-title"><strong>[DATE '26]</strong> <a href="https://ieeexplore.ieee.org/abstract/document/11539282">XTree on EquiMesh: Topology and Algorithm Co-Design for Collective Communication</a></p>
     <p class="publication-authors">Junwei Cui, <strong>Le Qin</strong>, Weilin Cai, Jiayi Huang</p>
     <p class="publication-meta">Design, Automation and Test in Europe Conference (DATE), 2026</p>
   </div>
@@ -101,7 +101,8 @@ author_profile: true
     <p class="record-title">Huang Lab, <a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a></p>
     <p class="record-meta">Graduate Research Assistant, Aug. 2022 - Present</p>
     <p class="record-submeta">Advisor: <a href="https://jyhuang91.github.io">Prof. Jiayi Huang</a></p>
-    <p class="record-submeta">Focus: Collective communication optimization for distributed deep learning and software-hardware co-design for efficient LLM training and inference</p>
+    <p class="record-submeta">Focus: Collective communication optimization for distributed deep learning and software-hardware co-design for efficient LLM training and inference, and Topology, routing, protocol, flow control design for supernode systems</p>
+    <p class="record-submeta">Thesis title: Collective Communication Optimization for Parallel and Distributed Machine Learning Systems</p>
   </div>
 
   <div class="record-item">
@@ -115,10 +116,12 @@ author_profile: true
 <section id="service" class="anchor-section">
   <h2>Service</h2>
   <ul class="compact-list">
-    <li>International Symposium on Computer Architecture (ISCA) Artifact Evaluation Program Committee, 2025</li>
-    <li>International Symposium on Microarchitecture (MICRO) Artifact Evaluation Program Committee, 2025</li>
-    <li>International Symposium on High-Performance Computer Architecture (HPCA) Artifact Evaluation Program Committee, 2026</li>
-    <li>International Conference on Computer Design (ICCD) Sub-Reviewer, 2023-2025</li>
+    <li>International Symposium on High-Performance Computer Architecture (HPCA) Training Review Committee (TRC), 2027</li>
+    <li>International Symposium on Microarchitecture (MICRO) Artifact Evaluation (AE), 2026</li>
+    <li>International Symposium on High-Performance Computer Architecture (HPCA) Artifact Evaluation (AE), 2026</li>
+    <li>International Symposium on Microarchitecture (MICRO) Artifact Evaluation (AE), 2025</li>
+    <li>International Symposium on Computer Architecture (ISCA) Artifact Evaluation (AE), 2025</li>
+    <li>International Conference on Computer Design (ICCD) Sub-Reviewer, 2023-2026</li>
     <li>IEEE International Symposium on Hardware Oriented Security and Trust (HOST) Sub-Reviewer, 2026</li>
   </ul>
 </section>
