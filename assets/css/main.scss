@@ -370,6 +370,16 @@ h3 {
   font-size: 0.9rem;
 }
 
+.author__last-updated {
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--site-border);
+  color: var(--site-text-light);
+  font-size: 0.82rem;
+  line-height: 1.35;
+  white-space: normal;
+}
+
 .page-reviewers__notice {
   margin: 0;
   color: var(--site-text-light);
