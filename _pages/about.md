@@ -38,6 +38,7 @@ author_profile: true
     <p class="publication-title"><strong>[MICRO '26]</strong> Glaive: Cleaving Bandwidth and Latency Scheduling for Efficient Non-uniform All-to-All Collective Communication</p>
     <p class="publication-authors"><strong>Le Qin</strong>, Junwei Cui, Weilin Cai, Chenyu Yuan, Jiayi Huang</p>
     <p class="publication-meta">Proceedings of the 59th International Symposium on Microarchitecture (MICRO), 2026</p>
+    <p class="publication-links"><a href="https://doi.org/10.5281/zenodo.21547687">[artifact]</a> <a href="https://github.com/redbird-arch/micro2026-glaive-artifact">[code]</a></p>
   </div>
 
   <div class="publication-item">
@@ -51,6 +52,7 @@ author_profile: true
     <p class="publication-authors">Junwei Cui, <strong>Le Qin</strong>, Weilin Cai, Jiayi Huang</p>
     <p class="publication-meta">Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA), 2026</p>
     <p class="publication-badge"><strong>ACM Artifact Review Badges:</strong> Artifact Available, Artifact Evaluated, Artifact Reproduced</p>
+    <p class="publication-links"><a href="https://doi.org/10.5281/zenodo.19686855">[artifact]</a> <a href="https://github.com/redbird-arch/isca2026-busybarn-artifact">[code]</a></p>
   </div>
 
   <div class="publication-item">
@@ -64,6 +66,7 @@ author_profile: true
     <p class="publication-authors"><strong>Le Qin</strong>, Junwei Cui, Weilin Cai, Meng Niu, Yan Yang, Jiayi Huang</p>
     <p class="publication-meta">Proceedings of the 58th International Symposium on Microarchitecture (MICRO), 2025</p>
     <p class="publication-badge"><strong>ACM Artifact Review Badges:</strong> Artifact Available, Artifact Evaluated, Artifact Reproduced</p>
+    <p class="publication-links"><a href="https://doi.org/10.5281/zenodo.16735314">[artifact]</a> <a href="https://github.com/redbird-arch/micro2025-torus-ft-all2all-artifact">[code]</a></p>
   </div>
 
   <div class="publication-item publication-item--highlight">
@@ -77,14 +80,16 @@ author_profile: true
     <p class="publication-title"><strong>[ISCA '25]</strong> <a href="https://doi.org/10.1145/3695053.3731025">Chimera: Communication Fusion for Hybrid Parallelism in Large Language Models</a></p>
     <p class="publication-authors"><strong>Le Qin</strong>, Junwei Cui, Weilin Cai, Jiayi Huang</p>
     <p class="publication-meta">Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA), 2025</p>
-    <p class="publication-highlight">Highlight: ISCA 2025 Distinguished Artifact Award</p>
+    <p class="publication-highlight">Highlight: <a class="publication-highlight-link" href="https://www.youtube.com/watch?v=CCvdOPhz254&t=2103s">ISCA 2025 Distinguished Artifact Award</a></p>
     <p class="publication-badge"><strong>ACM Artifact Review Badges:</strong> Artifact Available, Artifact Evaluated, Artifact Reproduced</p>
+    <p class="publication-links"><a href="https://doi.org/10.5281/zenodo.15348400">[artifact]</a> <a href="https://github.com/redbird-arch/isca2025-chimera-artifact">[code]</a></p>
   </div>
 
   <div class="publication-item">
     <p class="publication-title"><strong>[ISCA '25]</strong> <a href="https://doi.org/10.1145/3695053.3731105">TRACI: Network Acceleration of Input-Dynamic Communication for Large-Scale Deep Learning Recommendation Model</a></p>
     <p class="publication-authors">Guyue Huang, Hao Li, <strong>Le Qin</strong>, Jiayi Huang, Yangwook Kang, Yufei Ding, Yuan Xie</p>
     <p class="publication-meta">Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA), 2025</p>
+    <p class="publication-links"><a href="https://www.youtube.com/watch?v=hOZc2bN0u88">[video]</a></p>
   </div>
 
   <div class="publication-item">

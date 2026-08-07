@@ -289,6 +289,15 @@ h3 {
   margin: 0.15rem 0;
 }
 
+.publication-links {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+}
+
+.publication-links a + a {
+  margin-left: 0.45rem;
+}
+
 .publication-item--highlight {
   padding: 0.95rem 1rem 1rem;
   border-radius: 10px;
