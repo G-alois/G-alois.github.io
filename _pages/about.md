@@ -129,6 +129,8 @@ author_profile: true
 <section id="awards" class="anchor-section">
   <h2>Awards</h2>
   <ul class="compact-list">
+    <li>2026 HCCL Innovation Competition - GHM Region - Special Contribution Award (Top 10), Huawei, Guangzhou, China</li>
+    <li>2026 HCCL Innovation Competition - GHM Region - First Prize (2/55), Huawei, Guangzhou, China</li>
     <li>ISCA 2026 Student Travel Grant Award, ISCA’26, Raleigh, NC, USA</li>
     <li>MICRO 2025 Student Travel Grant Award, MICRO’25, Seoul, Korea</li>
     <li>ISCA 2025 Distinguished Artifact Award (3/570), ISCA’25, Tokyo, Japan</li>
