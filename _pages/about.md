@@ -104,8 +104,8 @@ author_profile: true
 
   <div class="record-item">
     <p class="record-title">AI Chip Department at <a href="https://www.bytedance.com/en/">ByteDance</a></p>
-    <p class="record-meta">AI Chip Toolchain Research &amp; Engineer Intern, Aug. 2026 - Present</p>
-    <p class="record-submeta">Focus: Develop a proprietary collective communication library; Build an AF-disaggregated communication optimization solution for AI clusters</p>
+    <p class="record-meta">AI Chip Toolchain Intern, Aug. 2026 - Present</p>
+    <p class="record-submeta">Focus: Develop a proprietary collective communication library; Build an communication optimization solution for inference clusters</p>
   </div>
 
   <div class="record-item">
