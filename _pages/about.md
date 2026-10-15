@@ -9,6 +9,7 @@ author_profile: true
   <h2>About</h2>
   <p>I have been a PhD student at <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a> since 2022.08 under the supervision of <a href="https://jyhuang91.github.io">Prof. Jiayi Huang</a>. I am also co-advised by <a href="https://tusharkrishna.ece.gatech.edu">Prof. Tushar Krishna</a>. My research interests primarily lie in the field of computer architecture and system, with a special focus on interconnection network and distributed machine learning systems. In addition, I am interested in hardware accelerators and machine learning algorithms.</p>
   <p>Previously, I obtained my Bachelor’s Degree from the <a href="https://ese.nju.edu.cn/ese_en/main.htm">School of Electronic Science and Engineering</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, where I was advised by <a href="https://scholar.google.com/citations?user=fzkrb4UAAAAJ&hl=en">Prof. Jun Lin</a>.</p>
+  <p><strong>I am currently exploring full-time opportunities in both industry and academia and expect to graduate in August 2027. If you know of a position that aligns with my background and interests, I would be happy to hear from you via <a href="mailto:lqin674@connect.hkust-gz.edu.cn">email</a>.</strong></p>
 </section>
 
 <section id="education" class="anchor-section">
