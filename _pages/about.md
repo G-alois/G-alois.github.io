@@ -36,6 +36,12 @@ author_profile: true
   <h2>Publications</h2>
 
   <div class="publication-item">
+    <p class="publication-title"><strong>[HPCA '27]</strong> Resilient and Bandwidth-Efficient Collective Communication on Mesh Networks</p>
+    <p class="publication-authors">Junwei Cui, <strong>Le Qin</strong>, Weilin Cai, Yanhua Chen, Fengbin Tu, Jiayi Huang</p>
+    <p class="publication-meta">International Symposium on High-Performance Computer Architecture (HPCA), 2027</p>
+  </div>
+
+  <div class="publication-item">
     <p class="publication-title"><strong>[MICRO '26]</strong> Glaive: Cleaving Bandwidth and Latency Scheduling for Efficient Non-uniform All-to-All Collective Communication</p>
     <p class="publication-authors"><strong>Le Qin</strong>, Junwei Cui, Weilin Cai, Chenyu Yuan, Jiayi Huang</p>
     <p class="publication-meta">Proceedings of the 59th International Symposium on Microarchitecture (MICRO), 2026</p>
